@@ -442,8 +442,10 @@ form .btn2{
     margin-top: 10px;
     height:60px;
 }
-/* ----------Small Screen--------- */
-nav .fas{
+form input:hover ,textarea:hover{
+    box-shadow: rgba(2, 211, 253, 0.979) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;/* ----------Small Screen--------- */
+}
+ nav .fas{
     display: none;
 }
 @media only screen and (max-width:700px){
@@ -498,7 +500,8 @@ nav .fas{
         cursor: pointer;
     }
     .home-icon{
-        left: 85%;
+        left: 70%;
+        top: 80%;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
