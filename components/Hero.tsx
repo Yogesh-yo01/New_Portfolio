@@ -41,7 +41,7 @@ export default function Hero() {
             <p className="text-muted-foreground mb-4 text-lg">Hello, I&apos;m</p>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">Yogesh</h1>
             <h2 className="text-2xl md:text-3xl text-primary mb-6">
-              Senior React Native Developer
+              React Native Developer
             </h2>
             <p className="text-muted-foreground mb-8 text-lg">
               Building beautiful, performant, and scalable mobile applications
@@ -63,7 +63,7 @@ export default function Hero() {
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Yogesh-yo01"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,7 +72,7 @@ export default function Hero() {
                 </Button>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,7 +80,7 @@ export default function Hero() {
                   <Linkedin className="h-6 w-6" />
                 </Button>
               </a>
-              <a href="mailto:yogesh@example.com">
+              <a href="mailto:syokesh081@gmail.com">
                 <Button variant="ghost" size="icon">
                   <Mail className="h-6 w-6" />
                 </Button>

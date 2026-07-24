@@ -27,7 +27,7 @@ export default function About() {
               Passionate Mobile Developer
             </h3>
             <p className="text-muted-foreground mb-6">
-              With over 4 years of experience in React Native development, I
+              With over 2 years of experience in React Native development, I
               specialize in building high-quality mobile applications that
               deliver exceptional user experiences. My passion for technology
               drives me to stay updated with the latest trends and best

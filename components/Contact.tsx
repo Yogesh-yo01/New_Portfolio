@@ -76,26 +76,26 @@ export default function Contact() {
                   <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">yogesh@example.com</p>
+                    <p className="text-muted-foreground">syokesh081@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">+1234567890</p>
+                    <p className="text-muted-foreground">+91 6374536593</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">City, Country</p>
+                    <p className="text-muted-foreground">Coimbatore, India</p>
                   </div>
                 </div>
                 <div className="flex gap-4 pt-4">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/Yogesh-yo01"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -104,7 +104,7 @@ export default function Contact() {
                     </Button>
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

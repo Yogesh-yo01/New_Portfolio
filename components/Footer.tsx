@@ -20,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Yogesh-yo01"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +29,7 @@ export default function Footer() {
                 </Button>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ export default function Footer() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:yogesh@example.com">
+              <a href="mailto:syokesh081@gmail.com">
                 <Button variant="ghost" size="icon">
                   <Mail className="h-5 w-5" />
                 </Button>

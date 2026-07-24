@@ -8,8 +8,8 @@ export default function Achievements() {
   const isInView = useInView(ref, { once: true });
 
   const achievements = [
-    { label: "Years Experience", value: 4 },
-    { label: "Projects Completed", value: 50 },
+    { label: "Years Experience", value: 2 },
+    { label: "Projects Completed", value: 20 },
     { label: "Published Apps", value: 10 },
     { label: "Client Satisfaction", value: 100 },
   ];
