@@ -31,7 +31,7 @@ export default function Testimonials() {
               <Card className="h-full">
                 <CardHeader>
                   <p className="text-muted-foreground italic">
-                    "{testimonial.content}"
+                    {testimonial.content}
                   </p>
                 </CardHeader>
                 <CardFooter className="flex items-center gap-4">

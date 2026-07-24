@@ -6,8 +6,7 @@ export const projects: Project[] = [
     title: "Healthcare Platform",
     description:
       "A comprehensive healthcare platform with doctor and patient apps, video calling, appointments, and chat functionality.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=healthcare%20mobile%20app%20doctor%20patient%20interface&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "Firebase",
@@ -41,8 +40,7 @@ export const projects: Project[] = [
     title: "Parking Management System",
     description:
       "QR-based parking management system with employee management, dashboard, and live socket updates.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=parking%20management%20mobile%20app%20qr%20code&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "Socket.IO",
@@ -75,8 +73,7 @@ export const projects: Project[] = [
     title: "Ride Booking Platform",
     description:
       "Ride booking platform with Google Maps integration, multi-city support, trip planning, and payments.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=ride%20booking%20mobile%20app%20google%20maps&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "Google Maps",
@@ -109,8 +106,7 @@ export const projects: Project[] = [
     title: "Loan Management App",
     description:
       "Loan management application with KYC, verification, references, camera, and document upload.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=loan%20management%20mobile%20app%20kyc%20verification&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "Firebase",
@@ -143,8 +139,7 @@ export const projects: Project[] = [
     title: "E-commerce App",
     description:
       "E-commerce application with cart, orders, wishlist, payments, and product catalog.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=ecommerce%20mobile%20app%20cart%20orders&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "Stripe",
@@ -178,8 +173,7 @@ export const projects: Project[] = [
     title: "Dentist Management Platform",
     description:
       "Dentist management platform with image collections, PDF generation, slideshows, and media sharing.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=dentist%20management%20mobile%20app%20images%20pdf&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "PDF Generation",
@@ -211,8 +205,7 @@ export const projects: Project[] = [
     title: "Productivity App",
     description:
       "Productivity application with calendar, notes, habits, focus timer, and task management.",
-    image:
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=productivity%20mobile%20app%20calendar%20notes&image_size=square_hd",
+    image: "/project-cover.svg",
     technologyStack: [
       "React Native",
       "AsyncStorage",

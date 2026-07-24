@@ -1,0 +1,55 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="48" fill="#09111F"/>
+  <rect x="32" y="32" width="1536" height="836" rx="36" fill="url(#bg)"/>
+  <g opacity="0.7">
+    <circle cx="1230" cy="170" r="220" fill="url(#orb1)"/>
+    <circle cx="360" cy="760" r="260" fill="url(#orb2)"/>
+    <circle cx="1380" cy="760" r="180" fill="url(#orb3)"/>
+  </g>
+  <g opacity="0.3" stroke="#9FB3FF">
+    <path d="M120 720C250 610 370 580 500 610C650 644 740 770 920 760C1100 750 1180 600 1320 546C1406 512 1474 510 1540 530"/>
+    <path d="M120 664C280 562 420 524 570 560C706 592 778 682 930 684C1082 686 1172 584 1302 512C1384 466 1452 446 1540 452"/>
+  </g>
+  <rect x="118" y="114" width="522" height="302" rx="30" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="148" y="146" width="184" height="12" rx="6" fill="#A5B4FC"/>
+  <rect x="148" y="184" width="132" height="12" rx="6" fill="rgba(255,255,255,0.85)"/>
+  <rect x="148" y="222" width="256" height="12" rx="6" fill="rgba(255,255,255,0.52)"/>
+  <rect x="148" y="272" width="462" height="112" rx="20" fill="url(#panel)"/>
+  <rect x="742" y="164" width="714" height="420" rx="34" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="782" y="214" width="240" height="20" rx="10" fill="rgba(255,255,255,0.88)"/>
+  <rect x="782" y="258" width="320" height="14" rx="7" fill="rgba(255,255,255,0.46)"/>
+  <rect x="782" y="308" width="636" height="220" rx="24" fill="url(#screen)"/>
+  <rect x="118" y="492" width="412" height="250" rx="30" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="570" y="640" width="420" height="102" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)"/>
+  <rect x="1030" y="640" width="426" height="102" rx="26" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)"/>
+  <text x="120" y="796" fill="white" font-family="Arial, sans-serif" font-size="92" font-weight="700">React Native Product Build</text>
+  <text x="124" y="844" fill="#94A3B8" font-family="Arial, sans-serif" font-size="28">Architecture, performance, payments, maps, media and real-time systems</text>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="90" x2="1430" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1230 170) rotate(90) scale(220)">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 760) rotate(90) scale(260)">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1380 760) rotate(90) scale(180)">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="148" y1="272" x2="610" y2="384" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="782" y1="308" x2="1418" y2="528" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+</svg>

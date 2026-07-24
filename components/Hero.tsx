@@ -38,7 +38,7 @@ export default function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-muted-foreground mb-4 text-lg">Hello, I'm</p>
+            <p className="text-muted-foreground mb-4 text-lg">Hello, I&apos;m</p>
             <h1 className="text-5xl md:text-7xl font-bold mb-4">Yogesh</h1>
             <h2 className="text-2xl md:text-3xl text-primary mb-6">
               Senior React Native Developer
@@ -98,7 +98,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full blur-xl opacity-50" />
               <img
-                src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=professional%20portrait%20of%20a%20software%20developer&image_size=square_hd"
+                src="/profile.png"
                 alt="Yogesh"
                 width={400}
                 height={400}
