@@ -1,0 +1,243 @@
+import { Project } from "@/types";
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "Healthcare Platform",
+    description:
+      "A comprehensive healthcare platform with doctor and patient apps, video calling, appointments, and chat functionality.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=healthcare%20mobile%20app%20doctor%20patient%20interface&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "Firebase",
+      "Agora",
+      "Stripe",
+      "TypeScript",
+    ],
+    features: [
+      "Doctor and Patient apps",
+      "Video calling",
+      "Appointment scheduling",
+      "Real-time chat",
+      "Payment integration",
+    ],
+    challenges: [
+      "Implementing reliable video calling",
+      "Handling real-time data synchronization",
+      "Ensuring HIPAA compliance",
+    ],
+    solutions: [
+      "Used Agora SDK for video calling",
+      "Implemented Firebase Realtime Database",
+      "Followed security best practices",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/healthcare",
+  },
+  {
+    id: "2",
+    title: "Parking Management System",
+    description:
+      "QR-based parking management system with employee management, dashboard, and live socket updates.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=parking%20management%20mobile%20app%20qr%20code&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "Socket.IO",
+      "Node.js",
+      "MongoDB",
+      "TypeScript",
+    ],
+    features: [
+      "QR code parking",
+      "Employee management",
+      "Live dashboard",
+      "Real-time updates",
+    ],
+    challenges: [
+      "Ensuring real-time updates",
+      "Handling large amounts of data",
+      "QR code scanning reliability",
+    ],
+    solutions: [
+      "Used Socket.IO for real-time communication",
+      "Implemented efficient database queries",
+      "Used reliable QR code scanning library",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/parking",
+  },
+  {
+    id: "3",
+    title: "Ride Booking Platform",
+    description:
+      "Ride booking platform with Google Maps integration, multi-city support, trip planning, and payments.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=ride%20booking%20mobile%20app%20google%20maps&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "Google Maps",
+      "Stripe",
+      "Firebase",
+      "TypeScript",
+    ],
+    features: [
+      "Google Maps integration",
+      "Multi-city support",
+      "Trip planning",
+      "Payment integration",
+    ],
+    challenges: [
+      "Accurate location tracking",
+      "Optimizing map performance",
+      "Handling payment failures",
+    ],
+    solutions: [
+      "Used Google Maps Platform",
+      "Implemented map caching",
+      "Added payment retry logic",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/ride",
+  },
+  {
+    id: "4",
+    title: "Loan Management App",
+    description:
+      "Loan management application with KYC, verification, references, camera, and document upload.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=loan%20management%20mobile%20app%20kyc%20verification&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "Firebase",
+      "Camera",
+      "File Upload",
+      "TypeScript",
+    ],
+    features: [
+      "KYC verification",
+      "Document upload",
+      "Camera integration",
+      "Reference management",
+    ],
+    challenges: [
+      "Ensuring document security",
+      "Handling large file uploads",
+      "Camera compatibility across devices",
+    ],
+    solutions: [
+      "Implemented end-to-end encryption",
+      "Used chunked file uploads",
+      "Tested on multiple devices",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/loan",
+  },
+  {
+    id: "5",
+    title: "E-commerce App",
+    description:
+      "E-commerce application with cart, orders, wishlist, payments, and product catalog.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=ecommerce%20mobile%20app%20cart%20orders&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "Stripe",
+      "Firebase",
+      "Redux",
+      "TypeScript",
+    ],
+    features: [
+      "Product catalog",
+      "Cart management",
+      "Order tracking",
+      "Wishlist",
+      "Payments",
+    ],
+    challenges: [
+      "Optimizing product list performance",
+      "Handling payment gateways",
+      "Managing cart state across sessions",
+    ],
+    solutions: [
+      "Implemented pagination and virtualization",
+      "Integrated multiple payment gateways",
+      "Used Redux for state management",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/ecommerce",
+  },
+  {
+    id: "6",
+    title: "Dentist Management Platform",
+    description:
+      "Dentist management platform with image collections, PDF generation, slideshows, and media sharing.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=dentist%20management%20mobile%20app%20images%20pdf&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "PDF Generation",
+      "Firebase",
+      "TypeScript",
+    ],
+    features: [
+      "Image collections",
+      "PDF generation",
+      "Slideshows",
+      "Media sharing",
+    ],
+    challenges: [
+      "Generating high-quality PDFs",
+      "Managing large image collections",
+      "Smooth slideshow animations",
+    ],
+    solutions: [
+      "Used reliable PDF generation library",
+      "Implemented image caching",
+      "Used Animated API for smooth transitions",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/dentist",
+  },
+  {
+    id: "7",
+    title: "Productivity App",
+    description:
+      "Productivity application with calendar, notes, habits, focus timer, and task management.",
+    image:
+      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=productivity%20mobile%20app%20calendar%20notes&image_size=square_hd",
+    technologyStack: [
+      "React Native",
+      "AsyncStorage",
+      "TypeScript",
+      "Context API",
+    ],
+    features: [
+      "Calendar",
+      "Notes",
+      "Habit tracking",
+      "Focus timer",
+      "Task management",
+    ],
+    challenges: [
+      "Data persistence",
+      "Calendar performance",
+      "Timer accuracy",
+    ],
+    solutions: [
+      "Used AsyncStorage for data persistence",
+      "Implemented efficient calendar rendering",
+      "Used precise timer APIs",
+    ],
+    github: "https://github.com",
+    liveDemo: "https://demo.com",
+    caseStudy: "/case-study/productivity",
+  },
+];
