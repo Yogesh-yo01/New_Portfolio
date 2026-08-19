@@ -24,19 +24,18 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <h3 className="text-2xl font-semibold mb-4">
-              Frontend Developer
+              Cross-Platform Mobile Developer
             </h3>
             <p className="text-muted-foreground mb-6">
-              I&apos;m Yogesh Kumar, a Computer Science graduate focused on
-              building polished, responsive web applications. I enjoy turning
-              ideas into clear, useful interfaces with React, JavaScript, HTML,
-              and CSS.
+              I&apos;m Yogesh Kumar, a React Native developer with two years of
+              hands-on experience delivering Android and iOS applications. I
+              build clean, responsive mobile interfaces and connect them to
+              APIs, Firebase, payments, maps, and real-time services.
             </p>
             <p className="text-muted-foreground mb-6">
-              My hands-on projects have strengthened my problem-solving,
-              debugging, and end-to-end development skills. I&apos;m looking for an
-              opportunity to learn quickly, contribute thoughtfully, and grow
-              with a collaborative engineering team.
+              I&apos;ve shipped applications for FinTech, healthcare, e-commerce,
+              and delivery use cases. I value maintainable code, clear
+              communication, and thoughtful solutions to real user problems.
             </p>
           </motion.div>
 
@@ -46,13 +45,13 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-semibold mb-4">Education</h3>
+            <h3 className="text-2xl font-semibold mb-4">Education & Recognition</h3>
             <ul className="space-y-4">
               {[
-                "B.Sc. Computer Science, 2020–2023",
+                "B.Sc. Computer Science, 2020–2023 · CGPA 6.9",
                 "Shree Venkateshwara Arts & Science College",
                 "Higher Secondary Education, 2018–2020",
-                "Government Higher Secondary School",
+                "Problem Solving Star Award · Company Anniversary, 2025",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 flex-shrink-0" />

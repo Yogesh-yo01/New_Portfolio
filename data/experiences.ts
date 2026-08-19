@@ -2,52 +2,21 @@ import { Experience } from "@/types";
 
 export const experiences: Experience[] = [
   {
-    company: "Tech Company X",
-    role: "Senior React Native Developer",
-    duration: "2023 - Present",
-    responsibilities: [
-      "Lead the development of cross-platform mobile applications",
-      "Mentor junior developers",
-      "Architect scalable mobile solutions",
-      "Optimize application performance",
-      "Collaborate with product and design teams",
-    ],
-    technologies: ["React Native", "TypeScript", "Redux", "Firebase", "Stripe"],
-    achievements: [
-      "Increased app performance by 40%",
-      "Reduced crash rate by 60%",
-      "Successfully launched 5+ apps to App Store and Play Store",
-    ],
+    company: "Codepluse Gen Private Limited", role: "React Native Developer · Full-time", duration: "Feb 2026 – Aug 2026",
+    responsibilities: ["Shipped three production React Native apps across FinTech, e-commerce, and delivery.", "Built reusable components from Figma and integrated REST APIs, Firebase, payments, and notifications.", "Worked with backend, design, and QA teams while following clean architecture and coding standards."],
+    technologies: ["React Native", "TypeScript", "Firebase", "FCM", "Google Maps"],
+    achievements: ["Implemented FCM custom notification channels and Notifee, achieving a 99%+ delivery rate.", "Resolved 20+ production crash reports with Firebase Crashlytics and maintained Google Play releases."],
   },
   {
-    company: "Startup Y",
-    role: "React Native Developer",
-    duration: "2021 - 2023",
-    responsibilities: [
-      "Developed and maintained mobile applications",
-      "Integrated third-party APIs and services",
-      "Implemented UI/UX designs",
-      "Wrote unit and integration tests",
-    ],
-    technologies: ["React Native", "JavaScript", "Context API", "GraphQL"],
-    achievements: [
-      "Delivered 3+ projects on time",
-      "Implemented complex features like video calling and payments",
-    ],
+    company: "Itboomi Innovations", role: "React Native Developer · Full-time", duration: "Jan 2025 – Jan 2026",
+    responsibilities: ["Developed and maintained Android and iOS applications with React Native and JavaScript.", "Built cross-device interfaces from Figma designs and integrated APIs, Firebase, and third-party libraries.", "Implemented push notifications, Agora audio/video calling, and Google Maps features."],
+    technologies: ["React Native", "JavaScript", "Firebase", "Agora SDK", "Google Maps"],
+    achievements: ["Published apps to the Google Play Store and Apple App Store and supported post-release maintenance."],
   },
   {
-    company: "Company Z",
-    role: "Junior Developer",
-    duration: "2020 - 2021",
-    responsibilities: [
-      "Learned React and React Native development",
-      "Assisted in bug fixing and feature implementation",
-      "Participated in code reviews",
-    ],
-    technologies: ["React", "JavaScript", "HTML", "CSS"],
-    achievements: [
-      "Quickly learned and contributed to production code",
-      "Received positive feedback from team leads",
-    ],
+    company: "Itboomi Innovations", role: "React Native Developer Intern", duration: "Oct 2024 – Jan 2025",
+    responsibilities: ["Contributed mobile features, bug fixes, API integrations, and front-end modules.", "Implemented geolocation and booking flows for internal travel and vehicle-booking projects."],
+    technologies: ["React Native", "REST APIs", "Google Maps"],
+    achievements: ["Gained end-to-end exposure to the mobile app lifecycle and workflow ownership."],
   },
 ];

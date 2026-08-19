@@ -9,9 +9,9 @@ export default function Achievements() {
 
   const achievements = [
     { label: "Years Experience", value: 2 },
-    { label: "Projects Completed", value: 20 },
-    { label: "Published Apps", value: 10 },
-    { label: "Client Satisfaction", value: 100 },
+    { label: "Published Apps", value: 5 },
+    { label: "Production Apps Shipped", value: 3 },
+    { label: "FCM Delivery Rate", value: 99 },
   ];
 
   return (
@@ -40,7 +40,7 @@ export default function Achievements() {
                   transition={{ duration: 1, delay: index * 0.1 + 0.3 }}
                 >
                   {achievement.value}
-                  {achievement.label.includes("Satisfaction") && "%"}
+                  {achievement.label.includes("Rate") && "%"}
                   {achievement.label.includes("Years") && "+"}
                 </motion.span>
               </motion.div>

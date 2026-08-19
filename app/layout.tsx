@@ -4,23 +4,23 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "Yogesh Kumar - Frontend & React Developer",
+  title: "Yogesh Kumar - React Native Developer",
   description:
-    "Frontend and React developer building responsive, user-focused web applications.",
+    "React Native developer building production-grade Android and iOS applications.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://yogeshportfolio.com",
-    title: "Yogesh Kumar - Frontend & React Developer",
+    title: "Yogesh Kumar - React Native Developer",
     description:
-      "Frontend and React developer building responsive, user-focused web applications.",
+      "React Native developer building production-grade Android and iOS applications.",
     siteName: "Yogesh Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Yogesh Kumar - Frontend & React Developer",
+    title: "Yogesh Kumar - React Native Developer",
     description:
-      "Frontend and React developer building responsive, user-focused web applications.",
+      "React Native developer building production-grade Android and iOS applications.",
   },
 };
 

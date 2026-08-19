@@ -45,8 +45,8 @@ export default function Hero() {
               {profile.title}
             </h2>
             <p className="text-muted-foreground mb-8 text-lg">
-              I build responsive, user-focused web experiences with React and
-              modern JavaScript.
+              React Native developer with two years of experience shipping
+              production-grade mobile apps for FinTech, healthcare, and e-commerce.
             </p>
 
             {/* CTA Buttons */}

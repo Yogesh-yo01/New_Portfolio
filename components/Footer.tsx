@@ -16,8 +16,8 @@ export default function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">{profile.name}</h3>
             <p className="text-muted-foreground mb-4">
-              Frontend & React Developer focused on responsive, user-friendly
-              web experiences.
+              React Native developer building reliable, user-focused mobile
+              applications for Android and iOS.
             </p>
             <div className="flex gap-4">
               <a
@@ -53,6 +53,7 @@ export default function Footer() {
                 "Home",
                 "About",
                 "Skills",
+                "Experience",
                 "Projects",
                 "Services",
                 "Contact",
@@ -74,11 +75,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 "React Native Development",
-                "Android Development",
-                "iOS Development",
-                "Cross Platform Apps",
-                "Firebase Integration",
-                "Performance Optimization",
+                "API & Firebase Integration",
+                "Maps, Payments & Calling",
+                "Release & Maintenance",
               ].map((service) => (
                 <li key={service}>
                   <a
