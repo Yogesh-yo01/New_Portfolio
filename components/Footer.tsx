@@ -2,6 +2,7 @@
 
 import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { profile } from "@/data/profile";
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -13,14 +14,14 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Yogesh</h3>
+            <h3 className="text-2xl font-bold mb-4">{profile.name}</h3>
             <p className="text-muted-foreground mb-4">
-              Senior React Native Developer passionate about building beautiful
-              and performant mobile applications.
+              Frontend & React Developer focused on responsive, user-friendly
+              web experiences.
             </p>
             <div className="flex gap-4">
               <a
-                href="https://github.com/Yogesh-yo01"
+                href={profile.github}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +30,7 @@ export default function Footer() {
                 </Button>
               </a>
               <a
-                href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
+                href={profile.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +38,7 @@ export default function Footer() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:syokesh081@gmail.com">
+              <a href={`mailto:${profile.email}`}>
                 <Button variant="ghost" size="icon">
                   <Mail className="h-5 w-5" />
                 </Button>
@@ -52,7 +53,6 @@ export default function Footer() {
                 "Home",
                 "About",
                 "Skills",
-                "Experience",
                 "Projects",
                 "Services",
                 "Contact",
@@ -95,7 +95,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Yogesh. All rights reserved.
+            © {new Date().getFullYear()} {profile.name}. All rights reserved.
           </p>
           <Button variant="ghost" size="icon" onClick={scrollToTop}>
             <ArrowUp className="h-5 w-5" />

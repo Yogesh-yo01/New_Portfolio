@@ -8,8 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
-import emailjs from "@emailjs/browser";
-import { toast } from "sonner";
+import { profile } from "@/data/profile";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -23,22 +22,9 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    try {
-      // Replace with your EmailJS credentials
-      await emailjs.send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        formData,
-        "YOUR_PUBLIC_KEY"
-      );
-      toast.success("Message sent successfully!");
-      setFormData({ name: "", email: "", subject: "", message: "" });
-    } catch (error) {
-      toast.error("Failed to send message. Please try again.");
-    } finally {
-      setIsSubmitting(false);
-    }
+    const body = `From: ${formData.name} (${formData.email})\n\n${formData.message}`;
+    window.location.href = `mailto:${profile.email}?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+    setIsSubmitting(false);
   };
 
   const handleChange = (
@@ -76,26 +62,26 @@ export default function Contact() {
                   <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-muted-foreground">syokesh081@gmail.com</p>
+                    <a className="text-muted-foreground hover:text-primary" href={`mailto:${profile.email}`}>{profile.email}</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <p className="text-muted-foreground">+91 6374536593</p>
+                    <a className="text-muted-foreground hover:text-primary" href={`tel:${profile.phone.replace(/\s/g, "")}`}>{profile.phone}</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-muted-foreground">Coimbatore, India</p>
+                    <p className="text-muted-foreground">{profile.location}</p>
                   </div>
                 </div>
                 <div className="flex gap-4 pt-4">
                   <a
-                    href="https://github.com/Yogesh-yo01"
+                    href={profile.github}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -104,7 +90,7 @@ export default function Contact() {
                     </Button>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
+                    href={profile.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -172,7 +158,7 @@ export default function Contact() {
                     />
                   </div>
                   <Button type="submit" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? "Sending..." : "Send Message"}
+                    {isSubmitting ? "Opening email..." : "Send via Email"}
                   </Button>
                 </form>
               </CardContent>

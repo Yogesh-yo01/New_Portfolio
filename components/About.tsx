@@ -24,19 +24,19 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <h3 className="text-2xl font-semibold mb-4">
-              Passionate Mobile Developer
+              Frontend Developer
             </h3>
             <p className="text-muted-foreground mb-6">
-              With over 2 years of experience in React Native development, I
-              specialize in building high-quality mobile applications that
-              deliver exceptional user experiences. My passion for technology
-              drives me to stay updated with the latest trends and best
-              practices in mobile development.
+              I&apos;m Yogesh Kumar, a Computer Science graduate focused on
+              building polished, responsive web applications. I enjoy turning
+              ideas into clear, useful interfaces with React, JavaScript, HTML,
+              and CSS.
             </p>
             <p className="text-muted-foreground mb-6">
-              I believe in writing clean, maintainable code and following
-              software engineering best practices. I enjoy solving complex
-              problems and finding elegant solutions that scale.
+              My hands-on projects have strengthened my problem-solving,
+              debugging, and end-to-end development skills. I&apos;m looking for an
+              opportunity to learn quickly, contribute thoughtfully, and grow
+              with a collaborative engineering team.
             </p>
           </motion.div>
 
@@ -46,15 +46,13 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <h3 className="text-2xl font-semibold mb-4">My Philosophy</h3>
+            <h3 className="text-2xl font-semibold mb-4">Education</h3>
             <ul className="space-y-4">
               {[
-                "User-centric design and development",
-                "Performance optimization and efficiency",
-                "Clean code and maintainability",
-                "Continuous learning and improvement",
-                "Team collaboration and communication",
-                "Agile methodology and iterative development",
+                "B.Sc. Computer Science, 2020–2023",
+                "Shree Venkateshwara Arts & Science College",
+                "Higher Secondary Education, 2018–2020",
+                "Government Higher Secondary School",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
                   <div className="h-2 w-2 rounded-full bg-primary mt-2 flex-shrink-0" />

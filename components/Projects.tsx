@@ -6,7 +6,7 @@ import { projects } from "@/data/projects";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Github, ExternalLink, FileText, Search } from "lucide-react";
+import { Github, ExternalLink, Search } from "lucide-react";
 import { Input } from "@/components/ui/input";
 
 export default function Projects() {
@@ -124,7 +124,7 @@ export default function Projects() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex gap-2">
-                  <a
+                  {project.github && <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -133,8 +133,8 @@ export default function Projects() {
                       <Github className="h-4 w-4" />
                       GitHub
                     </Button>
-                  </a>
-                  <a
+                  </a>}
+                  {project.liveDemo && <a
                     href={project.liveDemo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -143,13 +143,7 @@ export default function Projects() {
                       <ExternalLink className="h-4 w-4" />
                       Demo
                     </Button>
-                  </a>
-                  <a href={project.caseStudy}>
-                    <Button variant="outline" size="sm" className="gap-2">
-                      <FileText className="h-4 w-4" />
-                      Case Study
-                    </Button>
-                  </a>
+                  </a>}
                 </CardFooter>
               </Card>
             </motion.div>

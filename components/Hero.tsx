@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { profile } from "@/data/profile";
 
 export default function Hero() {
   return (
@@ -39,31 +40,35 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <p className="text-muted-foreground mb-4 text-lg">Hello, I&apos;m</p>
-            <h1 className="text-5xl md:text-7xl font-bold mb-4">Yogesh</h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-4">{profile.name}</h1>
             <h2 className="text-2xl md:text-3xl text-primary mb-6">
-              React Native Developer
+              {profile.title}
             </h2>
             <p className="text-muted-foreground mb-8 text-lg">
-              Building beautiful, performant, and scalable mobile applications
-              that users love.
+              I build responsive, user-focused web experiences with React and
+              modern JavaScript.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mb-8">
+              <a href={profile.resume} download>
               <Button size="lg" className="gap-2">
                 <Download className="h-5 w-5" />
                 Download Resume
               </Button>
+              </a>
+              <a href="#projects">
               <Button size="lg" variant="outline" className="gap-2">
                 View Projects
                 <ArrowRight className="h-5 w-5" />
               </Button>
+              </a>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="https://github.com/Yogesh-yo01"
+                href={profile.github}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,7 +77,7 @@ export default function Hero() {
                 </Button>
               </a>
               <a
-                href="https://www.linkedin.com/in/yogeshkumar-s-5b9ab6257/"
+                href={profile.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -80,7 +85,7 @@ export default function Hero() {
                   <Linkedin className="h-6 w-6" />
                 </Button>
               </a>
-              <a href="mailto:syokesh081@gmail.com">
+              <a href={`mailto:${profile.email}`}>
                 <Button variant="ghost" size="icon">
                   <Mail className="h-6 w-6" />
                 </Button>
